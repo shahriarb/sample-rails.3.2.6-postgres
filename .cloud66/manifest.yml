@@ -1,7 +1,8 @@
 development:
     memcached: 
         shared_group: web
-        memory: 1024
-        port: 11215
-        listen_ip: 127.0.0.1        
+        configuration:
+            memory: 1024
+            port: 11215
+            listen_ip: 127.0.0.1        
 
